@@ -1,0 +1,98 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  overflow: hidden;
+}
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+}
+
+.App-header {
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  padding: 50px 20px;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  margin-bottom: 20px;
+}
+
+.App-header h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.App-header p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.App-section {
+  padding: 40px 20px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.description-section {
+  /* background: linear-gradient(135deg, #ffafbd 0%, #ffc3a0 100%); */
+  background: black;
+  color: white;
+}
+
+.schedule-section {
+  background: linear-gradient(135deg, #c9ffbf 0%, #c64d62 100%);
+}
+
+.rules-section {
+  background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+
+.App-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.App-section p, .App-section ul {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.App-section ul {
+  text-align: left;
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.App-section li {
+  margin: 10px 0;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 1em;
+  margin-top: 20px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #21a1f1;
+  transform: translateY(-2px);
+}
+
+button:active {
+  background-color: #1b8edb;
+  transform: translateY(1px);
+}
