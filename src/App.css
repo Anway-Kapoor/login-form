@@ -1,20 +1,22 @@
 body, html {
-  margin: 0;
-  padding: 0;
   font-family: Arial, sans-serif;
-  background: #f0f2f5;
-  overflow: hidden;
+  height: 100%;
+  width: 100%;
 }
 
 .App {
   text-align: center;
-  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  
+  background: linear-gradient(90deg, hsla(221, 45%, 73%, 1) 0%, hsla(220, 78%, 29%, 1) 100%);
+  
+  background-image: url('/public/hackthon_1.jpg');
 }
 
 .App-header {
-  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+
+  background: radial-gradient(orange, white);
   padding: 50px 20px;
-  color: white;
+  color: black;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
   margin-bottom: 20px;
 }
@@ -40,9 +42,8 @@ body, html {
 }
 
 .description-section {
-  /* background: linear-gradient(135deg, #ffafbd 0%, #ffc3a0 100%); */
-  background: black;
-  color: white;
+  color: black;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
 .schedule-section {
@@ -50,7 +51,7 @@ body, html {
 }
 
 .rules-section {
-  background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+  background: radial-gradient(orange, white);
 }
 
 
@@ -79,10 +80,10 @@ button {
   font-size: 1em;
   margin-top: 20px;
   cursor: pointer;
-  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  background:   white;
   border: none;
   border-radius: 5px;
-  color: white;
+  color: black;
   transition: background-color 0.3s ease, transform 0.3s ease;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
